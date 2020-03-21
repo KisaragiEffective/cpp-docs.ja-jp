@@ -11,14 +11,14 @@ ms.locfileid: "70740861"
 ---
 # <a name="ccx-language-reference"></a>C++/CX 言語リファレンス
 
-C++/CX は言語のC++一連の拡張機能であり、最新C++のものにできるだけ近い表現形式で Windows アプリと Windows ランタイムコンポーネントを作成できます。 /Cx C++を使用して、Windows アプリとコンポーネントをネイティブコードで記述しC#ます。このコードは、Visual、Visual Basic、JavaScript など、Windows ランタイムをサポートするその他の言語と簡単にやり取りできます。 生の COM インターフェイスまたは非例外的コードへの直接アクセスを必要とするまれなケースでは、 [Windows ランタイムC++テンプレートライブラリ (wrl)](../windows/windows-runtime-cpp-template-library-wrl.md)を使用できます。
+C++/CX は言語のC++一連の拡張機能であり、最新C++のものにできるだけ近い表現形式で Windows アプリと Windows ランタイムコンポーネントを作成できます。 C++/CX を使用して、Windows アプリとコンポーネントをネイティブコードで記述しC#ます。このコードは、Visual、Visual Basic、JavaScript など、Windows ランタイムをサポートするその他の言語と簡単にやり取りできます。 生の COM インターフェイスまたは非例外的コードへの直接アクセスを必要とするまれなケースでは、 [Windows ランタイムC++テンプレートライブラリ (wrl)](../windows/windows-runtime-cpp-template-library-wrl.md)を使用できます。
 
 > [!NOTE]
-> **/Cx の代替手段としてC++/WinRT をお勧めします。 [ C++](/windows/uwp/cpp-and-winrt-apis/index)** これは、バージョン1803以降の最新の Windows 10 SDK で使用できる Windows ランタイム Api 向けの新しい標準 C++ 17 言語のプロジェクションです。 C++/WinRT は、完全にヘッダーファイルに実装され、最新の Windows API に対するファーストクラスのアクセスを提供するように設計されています。
+> **/Cx の代替手段としてC++/WinRT をお勧めします。 [ C++](/windows/uwp/cpp-and-winrt-apis/index)** これは、バージョン1803以降の最新の Windows 10 SDK で使用できる Windows ランタイム API 向けの新しい標準 C++ 17 言語のプロジェクションです。 C++/WinRT は、完全にヘッダーファイルに実装され、最新の Windows API に対するファーストクラスのアクセスを提供するように設計されています。
 >
-> / C++WinRT では、標準に準拠した c++ 17 コンパイラを使用して Windows ランタイム api を使用し、作成することができます。 C++通常、WinRT は、Windows ランタイムの他の言語オプションよりもパフォーマンスが向上し、バイナリが小さくなります。 C++/CX と WRL は引き続きサポートされますが、新しいアプリケーションでは C++/WinRT を使用することを強くお勧めします。 詳細については、「[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)」を参照してください。
+> / C++WinRT では、標準に準拠した C++ 17 コンパイラを使用して Windows ランタイム API を使用し、作成することができます。 C++通常、WinRT は、Windows ランタイムの他の言語オプションよりもパフォーマンスが向上し、バイナリが小さくなります。 C++/CX と WRL は引き続きサポートされますが、新しいアプリケーションでは C++/WinRT を使用することを強くお勧めします。 詳細については、「[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)」を参照してください。
 
-/Cx をC++使用すると、次のものを作成できます。
+C++/CX を使用すると、次のものを作成できます。
 
 - C++XAML を使用してユーザーインターフェイスを定義し、ネイティブスタックを使用するユニバーサル Windows プラットフォーム (UWP) アプリ。 詳細については、「 [(UWP) でC++の "hello world" アプリの作成](/windows/uwp/get-started/create-a-basic-windows-10-app-in-cpp)」を参照してください。
 
